@@ -1,5 +1,5 @@
 FROM alpine:latest as builder
-LABEL Version="1.1" Maintainer="Adeel Ahmad <adeel@coefficientdata.io>"
+LABEL Version="1.1" Maintainer="Adeel Ahmad"
 LABEL Description="This image is used to start the Packer executable" 
 
 ENV PACKER_VERSION=1.3.1
